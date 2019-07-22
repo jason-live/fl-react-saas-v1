@@ -7,7 +7,10 @@
   "scripts": {
     "start": "wci-build run start",
     "test": "wci-build run test",
-    "dist": "wci-build run dist"
+    "dist": "wci-build run dist",
+    "dev": "wci-build run dev",
+    "release": "wci-build run release",
+    "lint:js": "eslint --ext .js app/"
   },
   "author": "",
   "license": "ISC",
